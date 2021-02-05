@@ -1,0 +1,17 @@
+{
+  "name": "smehri/328/pet2",
+  "authors": [
+    {
+      "name": "Sarah Mehri",
+      "email": "smehri@mail.greenriver.edu"
+    },
+    {
+      "name":"Ben Chadwick",
+      "email": "bchadwick@mail.greenriver.edu"
+    }
+
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}

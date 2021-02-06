@@ -4,27 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          rel="stylesheet" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Pet</title>
 </head>
 <body>
-<div class="container-fluid p-5">
-<h2>Thank you for your order!</h2>
-    <br>
-    <br>
-    <br>
-
-<h4 class="badge-success">You ordered a {{ @SESSION.pet }}  with color of {{ @SESSION.color}}</h4>
-    <br>
+<div class="container text-center p-5">
+<h2 class="display-2">Thank you for your order!</h2>
+<h4>You ordered a {{ @SESSION.pet }}  with color of {{ @SESSION.color}}</h4>
 <h4>Pet name: {{ @SESSION.petName}}</h4>
-    <br>
-    <br>
-
 <a href="order"><button class="btn btn-success">Place another order</button></a>
-    <br>
-    <br>
-    <a href="{{@BASE}}"><button class="btn btn-primary">Home Page</button></a>
+<a href="{{@BASE}}"><button class="btn btn-primary">Home Page</button></a>
 </div>
 
 </body>

@@ -4,34 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          rel="stylesheet" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Pet</title>
 </head>
 
 <body>
-<div class="container-fluid p-5">
-    <h2> Order a Pet</h2>
+<div class="container text-center">
+    <h2 class="display-2 mb-3">Order a Pet</h2>
+    <div class="ml-5">
     <form method="post" action="order2">
-        <label>What kind of pet would you like to order?
-            <input type="text" name="pet">
-        </label>
-        <br>
-        <br>
-        <br>
-        <br>
-        <label>Select a color
-            <select class="form-select" aria-label="Default select example" name="color">
-                <option >Select a color</option>
-                <option value="Red" >Red</option>
-                <option value="Blue" >Blue</option>
-                <option value="Orange" >Orange</option>
-            </select>
-        </label>
-        <br>
-        <br>
-        <input class="btn btn-success active" type="submit" value="Place Order">
+        <div class="col">
+            <div class="row">
+            <label>What kind of pet would you like to order?
+                <input class="" type="text" name="pet">
+            </label>
+            </div>
+            <div class="row">
+                <label>Select a color
+                    <select class="form-select" aria-label="Default select example" name="color">
+                        <option >Select a color</option>
+                        <option value="Red" >Red</option>
+                        <option value="Blue" >Blue</option>
+                        <option value="Orange" >Orange</option>
+                    </select>
+                </label>
+            </div>
+            <div class="row">
+                <input class="btn btn-success active" type="submit" value="Place Order">
+            </div>
+        </div>
     </form>
+    </div>
 </div>
 
 </body>
